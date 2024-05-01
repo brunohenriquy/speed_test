@@ -1,0 +1,6 @@
+services:
+  speed_test:
+    container_name: speed_test
+    build:
+      context: .
+      dockerfile: Dockerfile
